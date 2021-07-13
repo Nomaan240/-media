@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+
+
+
+.form{
+   
+    background-color: grey;
+    margin: 50px;
+    padding: 50px;
+}
+
+.form li{
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.form li  label{
+   flex: 1;
+}
+
+.form li input{
+    flex: 14;
+}
+
+@media screen and (min-width: 300px) and ( max-width: 469px){
+
+    .form li{
+   flex-direction: column;
+   text-align: center;
+}
+
+
+    .form li input{
+   flex: 3;
+}
+
+}
+
+
+@media screen and (min-width: 470px){
+
+    .form li input{
+   flex: 2.1;
+}
+
+}
+
+@media screen and (min-width: 550px){
+
+    .form li input{
+   flex: 3;
+}
+
+}
+
+
+@media screen and (min-width: 600px){
+
+    .form li input{
+   flex: 3.5;
+}
+
+}
+
+
+@media screen and (min-width: 650px){
+
+    .form li input{
+   flex: 4.3;
+}
+
+}
+
+
+@media screen and (min-width: 750px){
+
+    .form li input{
+   flex: 5.5;
+}
+
+}
+
+
+@media screen and (min-width:900px){
+
+    .form li input{
+   flex: 7.4;
+}
+
+}
+
+@media screen and (min-width:1050px){
+
+    .form li input{
+   flex: 9;
+}
+
+}
+
+
+@media screen and (min-width: 1200px){
+
+    .form li input{
+   flex: 11;
+}
+
+}
+
+@media screen and (min-width: 1400px){
+
+    .form li input{
+   flex: 13.5;
+}
+
+}
+
